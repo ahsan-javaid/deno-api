@@ -95,6 +95,13 @@ dist
 .temp
 .cache
 
+deploy.sh
+run.sh 
+start.sh 
+migrate.sh
+migrate.ts
+
+
 # Sveltekit cache directory
 .svelte-kit/
 
