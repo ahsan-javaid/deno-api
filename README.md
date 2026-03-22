@@ -33,3 +33,4 @@ A lightweight and flexible backend API built with [Deno](https://deno.com/) that
 
 ```env
 DATABASE_URL=<your_neon_postgres_url>
+```
