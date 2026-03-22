@@ -44,7 +44,7 @@ export const router = async (req: any) => {
     return http400({ msg: 'invalid api key for delete operation' });
   }
 
-  switch (req.method) {
+  switch (req.method) {  // Todo: implement api version using next directory structure
     case 'GET':
       return await handleGET(req, routeName, param);
     case 'POST':
