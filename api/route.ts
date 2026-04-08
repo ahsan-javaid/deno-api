@@ -2,7 +2,6 @@ import { http200, http400, send } from "../utils/response.ts";
 import { logger } from "../utils/logger.ts";
 import { headers } from "../utils/constants.ts";
 
-
 const kv = await Deno.openKv();
 const secret = Deno.env.get("API_KEY");
 const secretv2 = Deno.env.get("API_KEY_SECRET");
