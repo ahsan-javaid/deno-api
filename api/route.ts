@@ -8,8 +8,8 @@ const secret = Deno.env.get("API_KEY");
 const secretv2 = Deno.env.get("API_KEY_SECRET");
 
 import { neon } from '@neon/serverless';
-const databaseUrl = Deno.env.get('DATABASE_URL')!;
-const sql = neon(databaseUrl);
+// const databaseUrl = Deno.env.get('DATABASE_URL')!;
+// const sql = neon(databaseUrl);
 
 // Route handler
 export const router = async (req: any) => {
